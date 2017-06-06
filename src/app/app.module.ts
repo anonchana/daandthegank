@@ -4,12 +4,16 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { TopicComponent } from './topic/topic.component';
 import { LeftbarComponent } from './leftbar/leftbar.component';
+import { ViewComponent } from './view/view.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     TopicComponent,
-    LeftbarComponent
+    LeftbarComponent,
+    ViewComponent
+
   ],
   imports: [
     BrowserModule
