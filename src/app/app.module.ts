@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { PostComponent } from './post/post.component';
+import { TopicComponent } from './topic/topic.component';
+import { LeftbarComponent } from './leftbar/leftbar.component';
 import { ViewComponent } from './view/view.component';
 
 
@@ -11,6 +13,8 @@ import { ViewComponent } from './view/view.component';
     AppComponent,
     NavbarComponent,
     PostComponent,
+    TopicComponent,
+    LeftbarComponent,
     ViewComponent
 
   ],
