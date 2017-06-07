@@ -6,6 +6,7 @@ import { PostComponent } from './post/post.component';
 import { TopicComponent } from './topic/topic.component';
 import { LeftbarComponent } from './leftbar/leftbar.component';
 import { ViewComponent } from './view/view.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { ViewComponent } from './view/view.component';
 
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

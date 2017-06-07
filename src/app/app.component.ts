@@ -7,5 +7,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Alenz';
+  result;
+  password;
   user = {name: 'non', password: 'non'};
+  singnIn(username,password){
+   // alert('Hello');
+   if(password=="1234"){
+      this.result="Login Succsess";
+   }else{
+      this.result ="Please check your password";
+      this.password ="";
+   }
+  }
 }
+
