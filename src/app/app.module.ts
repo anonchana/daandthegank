@@ -9,7 +9,11 @@ import { TopicComponent } from './topic/topic.component';
 import { LeftbarComponent } from './leftbar/leftbar.component';
 import { ViewComponent } from './view/view.component';
 import { LoginComponent } from './login/login.component';
+<<<<<<< HEAD
 import { UserComponent } from './user/user.component';
+=======
+import { AccountComponent } from './account/account.component';
+>>>>>>> bb3227d0ad619fabd6cab339679a598b614a9d08
 
 
 
@@ -22,7 +26,11 @@ import { UserComponent } from './user/user.component';
     LeftbarComponent,
     ViewComponent,
     LoginComponent,
+<<<<<<< HEAD
     UserComponent
+=======
+    AccountComponent
+>>>>>>> bb3227d0ad619fabd6cab339679a598b614a9d08
 
   ],
   imports: [
