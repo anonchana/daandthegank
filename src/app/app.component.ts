@@ -10,6 +10,7 @@ export class AppComponent {
   result;
   password;
   user = {name: 'non', password: 'non'};
+
   singnIn(username,password){
    // alert('Hello');
    if(password=="1234"){
@@ -18,6 +19,6 @@ export class AppComponent {
       this.result ="Please check your password";
       this.password ="";
    }
-  }
+
 }
 
