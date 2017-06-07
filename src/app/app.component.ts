@@ -6,17 +6,20 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  user = {name: 'non', password: 'non'};
+  title = 'Alenz';
   result;
-  Password;
-  
-  Yes(Username,Password){
-    // alert('Yes do it')
-    if(Password == '1234'){
-      this.result = 'Log in Success';
+  password;
+  user = { name: 'non', password: 'non' };
+
+  singnIn(username, password) {
+    // alert('Hello');
+    if (password == "1234") {
+      this.result = "Login Succsess";
+    } else {
+      this.result = "Please check your password";
+      this.password = "";
     }
-    else
-      this.result = Username + ' ,Check U Pass.';
-      this.Password ="";
+
   }
 }
+
