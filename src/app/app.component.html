@@ -1,12 +1,21 @@
-<!--<h1>
-  Hi {{username}}
-</h1>
-<label for="username">username: </label>
-<input type="text" [(ngModel)]="username">
+<!--The whole content below can be removed with the new code.-->
+<div>
+  <h1> Welcome to {{Username}} </h1>
 
-<label for="password">password: </label>
-<input type="text" [(ngModel)]="password">
-
-<button (click)="signIn(username,password)"> Sign In </button>
-<p>{{result}}</p>-->
-<app-view></app-view>
+  <app-login></app-login>
+  <div class="row">
+    <div class="col 3">
+      <app-leftbar></app-leftbar>
+    </div>
+    <div class="row">
+      <div class="col 3">
+        <app-view></app-view>
+      </div>
+    </div>
+    <!--<label for= "username"> Username : </label>
+  <input type="text" [(ngModel)]="Username">
+  <label for="password"> PassWord : </label>
+  <input type="password" [(ngModel)]="Password">
+  <button (click)="Yes(Username,Password)"> Yes </button>
+  <p>{{result}}</p>-->
+  </div>
