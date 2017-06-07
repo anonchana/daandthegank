@@ -13,7 +13,12 @@
   <div>
     <div class="col-sm-12">
       <app-navbar></app-navbar>
+
     </div>
+
+    <!--<div class="col-sm-6">
+      <app-topic [topic]="toPicData" *ngFor="let toPicData of topicArray"></app-topic>-->
+
     <div class="col-sm-3">
       <app-leftbar></app-leftbar>
     </div>
@@ -39,7 +44,7 @@
   <input type="password" [(ngModel)]="Password">
   <button (click)="Yes(Username,Password)"> Yes </button>
   <p>{{result}}</p>-->
-  </div>
+  <!--</div>-->
     <div class="col-sm-6">
       <app-post></app-post>
     </div>

@@ -1,5 +1,6 @@
 export class Topic {
-    constructor(comment: string,pathImage: string ){
-        
+
+    constructor(comment:string,pathImage:string,newsFeed:string){
+
     }
 }
