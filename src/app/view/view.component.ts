@@ -8,7 +8,7 @@ import { Topic } from "app/topic";
 })
 export class ViewComponent implements OnInit {
 
-  @Input() feedArray : Topic;
+  @Input() feed : Topic;
 
   constructor() { }
 
