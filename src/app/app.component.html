@@ -2,11 +2,31 @@
 <div>
   <h1> Welcome to {{Username}} </h1>
 
+<input type="text" [(ngModel)]="newName">
+<input type="text" [(ngModel)]="newPhone">
+<input type="text" [(ngModel)]="NewEmail">
+<button (click) = "addNewUser(newName)">Add</button>
   <app-login></app-login>
+  <app-user [user]="userDate" *ngFor="let userDate of userArray"></app-user>
   <div class="row">
     <div class="col 3">
       <app-leftbar></app-leftbar>
     </div>
+
+
+ <!--<ul>
+   <li *ngFor="let item of userArray">
+<p>
+ {{item.name}}
+</p>
+     <p>
+       <a href="tell:{{item.cellphone}}">{{item.cellphone}}</a>
+     </p>
+     <p>
+       <a href="mailTo:{{item.email}}">{{item.email}}</a>
+     </p>
+   </li>
+ </ul>-->
     
     <!--<label for= "username"> Username : </label>
   <input type="text" [(ngModel)]="Username">

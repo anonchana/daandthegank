@@ -9,6 +9,7 @@ import { TopicComponent } from './topic/topic.component';
 import { LeftbarComponent } from './leftbar/leftbar.component';
 import { ViewComponent } from './view/view.component';
 import { LoginComponent } from './login/login.component';
+import { UserComponent } from './user/user.component';
 
 
 
@@ -20,7 +21,8 @@ import { LoginComponent } from './login/login.component';
     TopicComponent,
     LeftbarComponent,
     ViewComponent,
-    LoginComponent
+    LoginComponent,
+    UserComponent
 
   ],
   imports: [
