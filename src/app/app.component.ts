@@ -9,6 +9,14 @@ export class AppComponent {
   title = 'Alenz';
   result;
   password;
+
+topicArray = [{
+  comment:'สวัสดี Angular2++++',
+  image:'ยังไม่มีรูปภาพพพพพพพ',
+  newsFeed:'ยังไม่มีข่าวววววววววรอนนนทำ'
+}]
+
+
   user = { name: 'non', password: 'non' };
 
   userArray = [
