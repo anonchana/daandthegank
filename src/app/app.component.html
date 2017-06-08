@@ -48,8 +48,11 @@
     <div class="col-sm-6">
       <app-post></app-post>
     </div>
-    <div class="col-sm-6">
+    <!--<div class="col-sm-6">
       <app-view [feed]="feedData" *ngFor="let feedData of feedArray"></app-view>
+    </div>-->
+    <div class="col-sm-6">
+      <app-view [feed]="feedData" *ngFor="let feedData of topicService.topicArray"></app-view>
     </div>
 
 </div>

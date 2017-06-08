@@ -1,3 +1,6 @@
+import { TopicService } from './services/topic.service';
+import { AccountService } from './services/account.service';
+import {HttpModule} from '@angular/http';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms'; 
 import { NgModule } from '@angular/core';
@@ -33,9 +36,10 @@ import { AccountComponent } from './account/account.component';
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    HttpModule
   ],
-  providers: [],
+  providers: [AccountService,TopicService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
